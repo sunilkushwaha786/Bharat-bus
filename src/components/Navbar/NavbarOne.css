@@ -1,0 +1,37 @@
+
+
+.logo {
+    display: flex;
+    align-items: center;
+  }
+  
+  .logo-text {
+    display: inline-block;
+    margin-left: 10px; 
+  }
+  
+  .hamburger {
+    display: none;
+    flex-direction: column;
+    cursor: pointer;
+    margin-left: 10px; 
+  }
+  
+  .line {
+    width: 25px;
+    height: 3px;
+    background-color: #333;
+    margin: 2px 0;
+  }
+  
+  /* Media Query for mobile view */
+  @media (max-width: 767px) {
+    .logo-text {
+      display: none;
+    }
+  
+    .hamburger {
+      display: flex;
+    }
+  }
+  

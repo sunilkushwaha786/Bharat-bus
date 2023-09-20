@@ -1,0 +1,22 @@
+
+
+.city1{
+
+        height: 48px;
+        width: 210px;
+        margin-right:40px;
+        padding-left:20px;
+        border-radius: 17px;
+        border: none;
+}
+
+.city2{
+   
+    height: 48px;
+    width: 210px;
+    border-radius: 17px;
+    padding-left:20px;
+    border: none;
+    margin-left: 10px;
+    margin-bottom: 470px;
+}
